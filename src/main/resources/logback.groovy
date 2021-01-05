@@ -11,4 +11,6 @@ appender( "STDOUT", ConsoleAppender ) {
 
 logger( "part2dataframes.DataFramesBasics", DEBUG )
 logger( "part2dataframes.DataFramesBasicsExercises", DEBUG )
+logger( "part2dataframes.DataSourcesPart2", DEBUG )
+logger( "part2dataframes.DataSourcesPart2Exercises", DEBUG )
 root( WARN, [ "STDOUT" ] )
